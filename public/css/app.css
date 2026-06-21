@@ -43,3 +43,15 @@ a:hover { color: #c9a66b; }
 }
 
 .masthead h2 { font-weight: 700; }
+
+body {
+    background: red !important;
+}
+
+.bg-primary {
+    background: green !important;
+}
+
+.bg-secondary {
+    background: black !important;
+}
