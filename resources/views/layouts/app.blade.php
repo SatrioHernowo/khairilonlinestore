@@ -10,7 +10,7 @@
 <body>
   <nav class="navbar navbar-expand-lg navbar-dark bg-secondary py-4">
     <div class="container">
-      <a class="navbar-brand" href="#">Khairil Online Store</a>
+      <a class="navbar-brand" href="#">Online Store</a>
       <div class="collapse navbar-collapse">
         <div class="navbar-nav ms-auto">
           <a class="nav-link active" href="{{ route('home.index') }}">Home</a>
@@ -50,7 +50,7 @@
   </div>
 
   <div class="copyright py-4 text-center text-white">
-    <div class="container"><small>Copyright - Online Store</small></div>
+    <div class="container"><small>Copyright - Rizki Amalia 2026</small></div>
   </div>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>

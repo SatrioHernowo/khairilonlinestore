@@ -1,57 +1,114 @@
-/* ===== Tema: Hijau Hutan & Earthy ===== */
+/* ===== Tema: Pink Soft ===== */
 
 body {
-  background-color: #f7f4ec;
+  background-color: #fff5f7;
   font-family: 'Poppins', 'Nunito', sans-serif;
 }
 
-.bg-secondary { background-color: #3e362d !important; }   /* navbar */
-.copyright    { background-color: #2a2520; }                /* footer */
-.bg-primary   { background-color: #4f7d52 !important; }     /* header / hero */
+/* Navbar */
+.bg-secondary {
+  background-color: #d98ca3 !important;
+}
 
-nav { font-weight: 700; }
+/* Footer */
+.copyright {
+  background-color: #c97891;
+}
 
-.img-card { height: 18vw; object-fit: cover; }
+/* Header / Hero */
+.bg-primary {
+  background-color: #f8b6c8 !important;
+}
 
-/* Tombol utama ikut tema, bukan biru default Bootstrap lagi */
+nav {
+  font-weight: 700;
+}
+
+.img-card {
+  height: 18vw;
+  object-fit: cover;
+}
+
+/* Tombol utama */
 .btn-primary {
-  background-color: #4f7d52;
-  border-color: #4f7d52;
-}
-.btn-primary:hover,
-.btn-primary:focus {
-  background-color: #3d6440;
-  border-color: #3d6440;
-}
-
-.btn-outline-secondary {
-  color: #3e362d;
-  border-color: #3e362d;
-}
-.btn-outline-secondary:hover {
-  background-color: #3e362d;
+  background-color: #f8b6c8;
+  border-color: #f8b6c8;
   color: #fff;
 }
 
-a { color: #4f7d52; }
-a:hover { color: #c9a66b; }
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: #ec9db5;
+  border-color: #ec9db5;
+}
 
+/* Tombol outline */
+.btn-outline-secondary {
+  color: #d98ca3;
+  border-color: #d98ca3;
+}
+
+.btn-outline-secondary:hover {
+  background-color: #d98ca3;
+  color: #fff;
+}
+
+/* Link */
+a {
+  color: #d98ca3;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ec9db5;
+}
+
+/* Card produk */
 .card {
   border: none;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.08);
-  border-radius: 0.6rem;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+  border-radius: 0.8rem;
+  transition: all 0.3s ease;
+  background-color: #ffffff;
 }
 
-.masthead h2 { font-weight: 700; }
-
-body {
-    background: red !important;
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
 }
 
-.bg-primary {
-    background: green !important;
+/* Judul Hero */
+.masthead h2 {
+  font-weight: 700;
 }
 
-.bg-secondary {
-    background: black !important;
+/* Form */
+.form-control:focus {
+  border-color: #f8b6c8;
+  box-shadow: 0 0 0 0.25rem rgba(248, 182, 200, 0.25);
+}
+
+/* Tabel */
+.table thead {
+  background-color: #f8b6c8;
+  color: white;
+}
+
+/* Pagination */
+.page-item.active .page-link {
+  background-color: #f8b6c8;
+  border-color: #f8b6c8;
+}
+
+.page-link {
+  color: #d98ca3;
+}
+
+.page-link:hover {
+  color: #ec9db5;
+}
+
+/* Badge */
+.badge.bg-success {
+  background-color: #f8b6c8 !important;
 }
