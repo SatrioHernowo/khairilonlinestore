@@ -1,0 +1,16 @@
+/* ===== Tema Admin: Hijau Hutan & Earthy ===== */
+
+body {
+  font-family: 'Poppins', 'Nunito', sans-serif;
+}
+
+.copyright       { background-color: #2a2520; }
+.bg-secondary    { background-color: #3e362d !important; } /* sidebar admin */
+.bg-primary      { background-color: #4f7d52 !important; }
+.fixed           { flex: 0 0 250px; }
+.content-grey    { background-color: #f7f4ec; }
+.img-profile     { height: 2rem; width: 2rem; }
+.profile-font    { color: #d8d2c4 !important; font-size: 80%; font-weight: 400; }
+.card-header     { background-color: #f1ede3; border-bottom: 1px solid #e0d9c8; }
+
+.btn.bg-primary:hover { background-color: #3d6440 !important; }
